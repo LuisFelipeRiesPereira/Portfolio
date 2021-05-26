@@ -1,0 +1,96 @@
+*{
+    margin: 0;;
+    padding: 0;
+    }
+    
+    body{
+        
+        background-image: linear-gradient(to bottom, rgb(0, 204, 255), rgb(0, 184, 0));
+        color: rgb(0, 0, 0);
+        font-family: 'Russo One', sans-serif;
+    }
+    
+    header{
+        width: 100%;
+        float: left;
+        height: 134px;
+        background-color: rgba(0, 0, 0, 0.308);
+    }
+    
+    header div{
+        width: 43%;
+        float: left;
+        color:rgba(0, 0, 0, 0.918);
+    } 
+    #titulo{
+        font-style: normal;
+        font-family: 'Russo One', sans-serif;
+        padding-top: 50px;
+        padding-left: 746px;
+    }
+
+    main{
+        padding: 10px 0 10px 0;
+        float: left;
+        width: 100%;
+        height: 80vh;
+    }
+    
+    main div{
+        width: 70%;
+        margin: auto;
+    }
+    
+    .imagens{
+        width: 30%;
+        float: left;
+        margin: 20px;
+        transform: rotateY(25deg);
+    }
+    
+    .imagens img{
+        width: 100%;
+        border-radius:70%;
+    }
+
+    .imagens img:hover{
+        transform: scale(1.4);
+        border-radius:30%;
+        position: initial;
+    }
+    
+    nav{
+        height: 40px;
+        background-color: rgba(251, 255, 0, 0.1);
+        padding: 15px 0 15px 0;
+        width: 100%;
+        float: left;
+    }
+    
+    nav ul{
+        list-style: none;
+        margin-top: 7px;
+    }
+    
+    nav ul li{  
+        display: inline;
+    }
+    
+    nav ul li a{
+        font-size: 24px;
+        text-decoration: none;
+        margin-left: 50px;
+        color: rgba(0, 0, 0, 0.384);
+        padding: 22px 0 22px 0;
+    }
+    
+    nav ul li a:hover{
+        background-color: rgba(255, 255, 255, 0.5);
+        width: 1px;
+    }
+
+    main div{
+        width: 80%;
+        margin: auto;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
